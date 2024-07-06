@@ -8,23 +8,96 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
-
-    <h1 class="index-title">我是首頁</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+    <main>
+      <section class="description">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 ml-auto">
+              <p class="description__content">
+                I'm Vito, a UI Designer with 5+ years of experience. I create visually appealing interfaces for web and mobile apps.
+                Proficient in Sketch, Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating with others to create
+                high-quality products.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col-4">
-          <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
-        </div>
-        <div class="col-4">
-          <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
-        </div>
-      </div>
-    </div>
+      </section>
+      <section class="info container">
+        <div class="row">
+          <ul class="col-6">
+            <li class="info__list">
+              <h3 class="title">Vito Evans</h3>
+              <ul>
+                <li class="list-item">
+                  <p>456 Walnut Avenue, Someville, USA</p>
+                </li>
+                <li class="list-item">
+                  <a href="tel:+1 123 456 7890">
+                    +1 123 456 7890
+                  </a>
+                </li>
+                <li class="list-item">
+                  <a href="mailto:info@hexschool.com">
+                    info@hexschool.com
+                  </a>
+                </li>
+                <li class="list-item">
+                  <a href="#">
+                    www.infohexschool.com
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="info__list">
+              <h3 class="title">Education</h3>
+              <ul>
+                <li class="list-item">
+                  <p class="time">2014-2018</p>    
+                  <p>Bachelor of Science in Business Administration, University of California, Los Angeles</p>
+                </li>
+                <li class="list-item">
+                  <p class="time">2012-2014</p>
+                  <p>Associate of Arts in Graphic Design, San Francisco State University</p>
+                </li>
+                <li class="list-item">
+                  <p class="time">2008-2012</p>
+                  <p>High School Diploma, Lincoln High School</p>
+                </li>
+              </ul>
+            </li>
+            <li class="info__list">
+              <h3 class="title">Work</h3>
+              <ul>
+                <li class="list-item">
+                  <p class="time">2018-2021</p>
+                  <p>Marketing Manager, ABC Company</p>
+                </li>
+                <li class="list-item">
+                  <p class="time">2016-2018</p>
+                  <p>Sales Associate, XYZ Corporation</p>
+                </li>
+                <li class="list-item">
+                  <p class="time">2014-2016</p>
+                  <p>Customer Service Representative, QRS Inc.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="info__list">
+              <h3 class="title">Awards</h3>
+              <ul>
+                <li class="list-item">
+                  <p>Best in Show Award, National Advertising Awards, 2020</p>
+                </li>
+                <li class="list-item">
+                  <p>Honorable Mention, International Design Competition, 2019</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div> 
+      </section>
+    </main>
     <%- include('./layout/footer'); -%>
-
     <script type="module" src="../main.js"></script>
   </body>
 </html>

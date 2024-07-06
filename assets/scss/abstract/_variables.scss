@@ -1,15 +1,13 @@
 //colors
-$color-primary: #326dee !default;
-$color-secondary: #1ac886 !default;
-$color-danger: #d32752 !default;
-$color-gray: #c2c2c2;
-$color-light: #fff !default;
-$color-dark: #000 !default;
+$color-primary: #AE0000;
+$color-secondary: #1ac886;
+$color-gray: #949494;
+$color-light: #EFEFEF;
+$color-dark: #000;
 
 $theme-colors: (
   primary:   $color-primary,
   secondary: $color-secondary,
-  danger:    $color-danger,
   gray:      $color-gray,
   light:     $color-light,
   dark:      $color-dark,
@@ -17,15 +15,15 @@ $theme-colors: (
 
 //font-size
 $fs-base: 1rem;          //16px
-$fs-1: $fs-base * 2;     //32px
-$fs-2: $fs-base * 1.75;  //28px
-$fs-3: $fs-base * 1.5;   //24px
-$fs-4: $fs-base * 1.25;  //20px
-$fs-5: $fs-base;         //16px
-$fs-6: $fs-base * 0.875; //14px
+$fs-1: $fs-base * 8;     //128px
+$fs-2: $fs-base * 2.5;   //40px
+$fs-3: $fs-base * 2;     //32px
+$fs-4: $fs-base * 1.5;   //24px
+$fs-5: $fs-base * 1.25;  //20px
 
 // font-family
-$font-family-base: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+$font-family-base: "Castoro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
 
 //font-weight
 $font-weight-lighter: lighter;
@@ -35,12 +33,12 @@ $font-weight-bold: 700;
 $font-weight-bolder: bolder;
 
 //light-height
-$lh-sm: 1.25;
+$lh-sm: 1.2;
 $lh-base: 1.5;
 $lh-lg: 2;
 
 //grid
-$gutter-width: 30px;
+$gutter-width: 24px;
 $grid-sum: 12;
 $grid-breakpoints: (
   '': false,

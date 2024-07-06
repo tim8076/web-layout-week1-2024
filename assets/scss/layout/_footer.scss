@@ -1,4 +1,11 @@
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+  background-color: $color-dark;
+  padding: 4rem 0;
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+  &__list li:not(:last-child) {
+    margin-right: 2.5rem;
+  }
 }

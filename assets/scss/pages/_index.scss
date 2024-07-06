@@ -1,3 +1,50 @@
-.index-title {
-  font-size: 100px;
+.description {
+  padding: 3rem 0;
+  background-color: $color-light;
+
+  &__content {
+    font-size: $fs-3;
+  }
+}
+
+.info {
+  padding-top: 5rem;
+  padding-bottom: 13rem;
+
+  &__list {
+    margin-bottom: 2.5rem;
+    .title {
+      color: $color-primary;
+      font-size: $fs-2;
+      border-bottom: 3px solid $color-primary;
+      margin-bottom: 1rem;
+    }
+    .list-item:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+    .list-item a {
+      transition: all 500ms ease;
+    }
+    .list-item a:hover {
+      color: $color-primary;
+    }
+    .list-item .time {
+      font-size: $fs-5;
+      color: $color-gray;
+      font-style: italic;
+    }
+  }
+  
+  &__list:nth-child(2),
+  &__list:nth-child(3) {
+    .list-item:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+  }
+  &__list:nth-child(4) {
+    margin-bottom: 0;
+    .list-item:not(:last-child) {
+      margin-bottom: 0.75rem;
+    }
+  }
 }

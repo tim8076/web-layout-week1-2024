@@ -1,4 +1,15 @@
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  padding-top: 10rem;
+  &__title {
+    font-size: $fs-1;
+    letter-spacing: 0.12em;
+  }
+  &__title:last-child {
+    width: 50%;
+    margin-left: auto;
+  }
+  &__img {
+    display: block;
+    margin: 0 auto;
+  }
 }
